@@ -1,0 +1,33 @@
+#A Variable is a name given to a memory location in a program
+#                 (var=value)
+
+#Rules for Variable Names/Identifiers:
+#     Must start with a letter (a-z, A-Z) or an underscore _
+#     Can contain letters, digits (0-9), and underscores
+#     Cannot be a Python keyword (like if, while, def, etc.)
+#     Case-sensitive (Name and name are different)
+#     Variable can be of any length
+
+
+name="hariom"
+age=26
+height=5.7
+
+#If you want to specify the data type of a variable, this can be done with casting.
+a=str(3)     #it will be "3" or '3'
+b=int(3)     #it will be 3
+c=float(3)   #it will be 3.0
+
+#to print the values
+print(name)
+print(age)
+
+# to print the type of variable
+print(type(name))
+print(type(height))
+
+#if we assign any variable to another variable, it will fetch the value of the variable assigned.
+age2=age
+print(age2)
+
+
