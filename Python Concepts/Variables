@@ -23,11 +23,11 @@ print(name)
 print(age)
 
 # to print the type of variable
-print(type(name))
-print(type(height))
+# print(type(name))
+# print(type(height))
 
 #if we assign any variable to another variable, it will fetch the value of the variable assigned.
-age2=age
-print(age2)
+# age2=age
+# print(age2)
 
 
